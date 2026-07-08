@@ -120,7 +120,7 @@ section{
 /* Popular Picks */
 .popular-picks{
     height: 100%;
-    background-color: #F1E7D8;
+    background-color: #2E2622;
 }
 .popular-picks-header{
     text-align: center;
@@ -129,6 +129,7 @@ section{
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 40px;
+    color: #FBF6EF;
 }
 .popular-picks-header p{
     margin-bottom: 20px;
@@ -223,4 +224,35 @@ section{
     font-weight: 300;
     letter-spacing: 1px;
     text-align: center;
+}
+/* Table Section */
+.table-contents-header{
+    text-align: center;
+}
+.table-contents-header h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+.table-contents-header p{
+    margin-bottom: 20px;
+    color: #E9B44C;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+table{
+    width:60%;
+    border: 1px solid #2E2622;
+    margin: 40px auto;
+    border-collapse: collapse;
+}
+table th{
+    background-color: #2E2622;
+    color: #E9B44C;
+    padding: 10px;
+}
+table th,td{
+    text-align: left;
+    border: 1px solid #2E2622;
+    padding: 15px;
+    font-size: 14px;
 }
