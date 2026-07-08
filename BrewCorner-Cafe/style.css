@@ -116,3 +116,111 @@ section{
     letter-spacing: 1px;
     margin-bottom: 20px;
 }
+
+/* Popular Picks */
+.popular-picks{
+    height: 100%;
+    background-color: #F1E7D8;
+}
+.popular-picks-header{
+    text-align: center;
+}
+.popular-picks-header h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.popular-picks-header p{
+    margin-bottom: 20px;
+    color: #E9B44C;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.popular-picks-boxes{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+.popular-picks-boxes .box{
+    background-color: #FBF6EF;
+    text-align: center;
+    border-radius: 20px;
+    padding: 30px 0;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+   
+   
+    /* important */
+    display: grid;
+    place-items: center;
+
+    /* transition */
+    transition: all 0.5s ease;
+}
+.box img{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+.box h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.box p{
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.box h4{
+    font-size: 18px;
+    font-weight: 800;
+    color:#E9B44C;
+}
+.box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0,0,0,.15);
+}
+
+/* Why Choose Us */
+.why-choose-us-header{
+    text-align: center;
+}
+.why-choose-us-header h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 25px;
+    letter-spacing: 1px;
+}
+.why-choose-us-header p{
+    margin-bottom: 20px;
+    color: #E9B44C;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.why-choose-us-contents{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+}
+.why-choose-us-box{
+    display: grid;
+    place-items: center;
+}
+.why-choose-us-box img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.why-choose-us-box h2{
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.why-choose-us-box p{
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-align: center;
+}
