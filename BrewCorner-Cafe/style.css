@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Navbar Styles */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2E2622;
+    padding: 20px 8%;
+}
+.logo{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    color: #E9B44C;
+    font-size: 20px;
+}
+.nav-links-ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.nav-links-ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #FBF6EF;
+    font-weight: 500;
+}
+
+/* Banner Container */
+.banner{
+    height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./image/bg-image.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-contents {
+    color: white;
+    text-align: center;
+}
+.banner-text{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    color: #E9B44C;
+}
+.banner-contents h2{
+    font-size: 50px;
+    font-weight: 600;
+    word-spacing: 2px;
+}
+.banner-description {
+    color: #FBF6EF;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+.common-btn{
+    margin-top: 30px;
+    padding:15px 30px;
+    border: none;
+    background-color: #E9B44C;
+    font-size: 16px;
+    border-radius: 30px;
+    color: black;
+}
+.common-btn:hover
+{
+    background-color: #FBF6EF;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+}
+
+/* Our Story */
+
