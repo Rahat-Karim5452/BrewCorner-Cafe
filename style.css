@@ -426,3 +426,46 @@ a {
 ul {
   list-style: none;
 }
+
+/*
+        NAVBAR
+*/
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+  background: #2e2622;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 45px;
+}
+
+.logo h2 {
+  color: #E9B44C;
+  font-size: 30px;
+}
+
+.nav-links-ul {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.nav-links-ul li a {
+  color: white;
+  font-size: 18px;
+  transition: .3s;
+}
+
+.nav-links-ul li a:hover {
+  color: #E9B44C;
+}
